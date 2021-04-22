@@ -46,3 +46,7 @@
         state: started
         enabled: yes
 
+    -
+      name: creating Container using image httpd
+      command:
+        "docker container run -itd --name=containerdoc httpd:latest"
